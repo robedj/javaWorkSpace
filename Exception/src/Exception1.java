@@ -1,4 +1,4 @@
-public class Exception {
+public class Exception1 {
 
 //Construindo excecao direto no método
     public static void main(String[] args) {
