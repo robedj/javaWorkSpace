@@ -5,11 +5,10 @@ public class Exception2 {
         System.out.println("Inicio da main");
         try {
             metodo1();
-        } catch(ArithmeticException ex) {
-            ex.printStackTrace();
-        }catch (NullPointerException ex){
+        } catch(ArithmeticException | NullPointerException ex) {
             String msg = ex.getMessage();
-            System.out.println("NullPointerException" + msg);
+            System.out.println("Exception" + msg);
+            ex.printStackTrace();
         }
         System.out.println("Fim da main");
     }
@@ -24,9 +23,9 @@ public class Exception2 {
         System.out.println("inicio do metodo 2");
         for(int i = 1; i <= 5; i++) {
             System.out.println(i);
-            //int a = i / 0;
-            Conta c = null;
-            c.deposita();
+            int a = i / 0;
+            //Conta c = null;
+            //c.deposita();
         }
         System.out.println("fim do metodo2");
     }
