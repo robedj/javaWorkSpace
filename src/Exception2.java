@@ -12,14 +12,15 @@ public class Exception2 {
         try {
             metodo2();
         } catch(ArithmeticException ex) {
-            System.out.println("Arithmetic Exception");
+            String msg = ex.getMessage();
+            System.out.println("Arithmetic Exception" + msg);
         }
         System.out.println("Fim do metodo 1");
     }
 
     public static void metodo2() {
         System.out.println("inicio do metodo 2");
-        for(int i = 1; i <=5; i++) {
+        for(int i = 1; i <= 5; i++) {
             System.out.println(i);
             int a = i / 0;
 
