@@ -1,6 +1,6 @@
-public class Exception {
+public class Exception2 {
 
-//Construindo excecao direto no método
+//Exemplo de execucao da exceção
     public static void main(String[] args) {
         System.out.println("Inicio da main");
         metodo1();
@@ -9,7 +9,11 @@ public class Exception {
 
     public static void metodo1() {
         System.out.println("inicio do metodo 1");
-        metodo2();
+        try {
+            metodo2();
+        } catch(ArithmeticException ex) {
+            System.out.println("Arithmetic Exception");
+        }
         System.out.println("Fim do metodo 1");
     }
 
@@ -17,11 +21,8 @@ public class Exception {
         System.out.println("inicio do metodo 2");
         for(int i = 1; i <=5; i++) {
             System.out.println(i);
-            try {
-                int a = i / 0;
-            } catch (ArithmeticException ex) {
-                System.out.println("ArithmeticException");
-            }
+            int a = i / 0;
+
         }
         System.out.println("fim do metodo2");
     }
