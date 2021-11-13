@@ -21,8 +21,8 @@ public class Fluxo {
 
     public static void metodo2() {
         System.out.println("inicio do metodo 2");
-        ArithmeticException exception = new ArithmeticException("erro");
-        throw exception;
+        throw new ArithmeticException("erro");
+
        // System.out.println("fim do metodo2");
     }
 }
