@@ -1,2 +1,2 @@
 ## javaWorkSpace
-studos em linguagem java - projetos.
+Estudos em linguagem java - projetos.
