@@ -3,18 +3,17 @@ public class Exception2 {
 //Exemplo de execucao da exceção
     public static void main(String[] args) {
         System.out.println("Inicio da main");
-        metodo1();
+        try {
+            metodo1();
+        } catch(ArithmeticException ex) {
+            ex.printStackTrace();
+        }
         System.out.println("Fim da main");
     }
 
     public static void metodo1() {
         System.out.println("inicio do metodo 1");
-        try {
-            metodo2();
-        } catch(ArithmeticException ex) {
-            String msg = ex.getMessage();
-            System.out.println("Arithmetic Exception" + msg);
-        }
+        metodo2();
         System.out.println("Fim do metodo 1");
     }
 
