@@ -1,4 +1,4 @@
-public class ExceptionTratamento {
+public class FluxoTratamento {
 
 //Exemplo de execucao da exceção
     public static void main(String[] args) {
