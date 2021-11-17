@@ -1,6 +1,6 @@
 public class TestaSaca {
     public static void main(String[] args) {
-        Conta conta = new ContaCorrente(123, 321);
+        Conta conta = new ContaCorrente(123, 300);
 
         conta.deposita(200);
         conta.saca(210);
