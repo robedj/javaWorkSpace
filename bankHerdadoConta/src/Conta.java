@@ -1,4 +1,4 @@
-
+import org.jetbrains.annotations.NotNull;
 
 public abstract class Conta {
 
@@ -22,18 +22,15 @@ public abstract class Conta {
     public void saca(double valor) {
 
         if(this.saldo < valor) {
-            //Problema
+            throw new SaldoInsuficienteException("Saldo: " + this.saldo + ", Valor a sacar: " + valor);
         }
         this.saldo -= valor;
     }
 
-    public boolean transfere(double valor, Conta destino) {
-        if(this.saca(valor)) {
-        		destino.deposita(valor);
-        		return true;
-        } else {
-        		return false;
-        }
+    public void transfere(double valor, @NotNull Conta destino) {//tratar excecao
+        this.saca(valor);
+        destino.deposita(valor);
+
     }
 
     public double getSaldo(){
