@@ -3,9 +3,12 @@ public class TestaSaca {
         Conta conta = new ContaCorrente(123, 300);
 
         conta.deposita(200);
-        conta.saca(210);
-        //Sai abruptamente sem chegar no final
+        try {
+            conta.saca(210);
+        } catch(SaldoInsuficienteException ex){
+            System.out.println(ex.getMessage()); //Execucao com tratamento
+        }
 
-        System.out.println(conta.getSaldo());
+        System.out.println("Saldo atual: " +conta.getSaldo());
     }
 }
