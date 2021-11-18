@@ -1,7 +1,7 @@
 ## javaWorkSpace 
 :    
-   ### Repositório contém material de estudo e curso de Linguagem Java
-   Cada módulo/pasta é relativo a uma aula do curso de Java
+   ### Curso de Java 
+   Cada módulo/pasta contém projeto dos meus estudos em linguagem java através
    
    ###Estudo de Excecoes em Java.
     Exceções: Tratamento de exceções, lançamento de exceções, alteração de assinatura de método para lançar exceção
