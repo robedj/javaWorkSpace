@@ -4,12 +4,14 @@ public class TesteConexao {
         try{
             con = new Conexao();
             con.leDados();
-            con.fecha();
-        }catch(IllegalStateException ex){
-            System.out.println("Deu erro na conexao");
 
-        }finally {
-            con.fecha();
+        }catch (IllegalStateException ex){
+            System.out.println("Deu erro na conexao.");
+        } finally {
+            System.out.println("finally");
+            if(con!= null){
+                con.fecha();
+            }
         }
 
     }
