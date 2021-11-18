@@ -1,7 +1,7 @@
 ## javaWorkSpace 
 :    
    ### Curso de Java 
-   Cada módulo/pasta contém projeto dos meus estudos em linguagem java através
+     Este repositório é dividido por módulos,  pratiquei e apliquei conceitos essenciais em desenvolvimento utilizando linguagem Java.
    
    ###Estudo de Excecoes em Java.
     Exceções: Tratamento de exceções, lançamento de exceções, alteração de assinatura de método para lançar exceção
