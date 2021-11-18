@@ -1,8 +1,8 @@
 ## javaWorkSpace 
 :    
-   ## Repositório contém material de estudo-curso de Linguagem Java
+   ### Repositório contém material de estudo e curso de Linguagem Java
    
-   ## Estudo de Excecoes em Java.
+   ###Estudo de Excecoes em Java.
     Exceções: Tratamento de exceções, lançamento de exceções, alteração de assinatura de método para lançar exceção
     Exceções checked e unchecked.
   
