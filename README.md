@@ -1,9 +1,10 @@
 ## javaWorkSpace 
 :    
-   ### Curso de Java 
-     Este repositório é dividido por módulos,  pratiquei e apliquei conceitos essenciais em desenvolvimento utilizando linguagem Java.
+   ###  Java 
+       Este repositório é dividido por módulos,  pratiquei e apliquei conceitos essenciais em
+       desenvolvimento utilizando linguagem Java que aprendi em um curso.
    
-   ###Estudo de Excecoes em Java.
+   ### Estudo de Excecoes em Java.
     Exceções: Tratamento de exceções, lançamento de exceções, alteração de assinatura de método para lançar exceção
     Exceções checked e unchecked.
   
