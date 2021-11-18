@@ -1,8 +1,7 @@
 ## javaWorkSpace 
 :    
    ###  Java 
-       Este repositório é dividido por módulos,  pratiquei e apliquei conceitos essenciais em
-       desenvolvimento utilizando linguagem Java que aprendi em um curso.
+       Este repositório é dividido por módulos,  pratiquei e apliquei conceitos essenciais em linguagem Java que aprendi ao longo do curso.
    
    ### Estudo de Excecoes em Java.
     Exceções: Tratamento de exceções, lançamento de exceções, alteração de assinatura de método para lançar exceção
