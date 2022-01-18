@@ -1,8 +1,7 @@
 ## javaWorkSpace 
 :    
-   ###  Java 
-       Este repositório é dividido por módulos,  pratiquei e apliquei conceitos essenciais
-       em linguagem Java que aprendi ao longo do curso na plataforma Alura.
+   ### Curso Java  E Orientação a objetos
+       
    
    ### Estudo de Excecoes em Java.
     Exceções: Tratamento de exceções, lançamento de exceções, alteração de assinatura de método para lançar exceção
